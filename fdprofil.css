@@ -1,6 +1,46 @@
+body,nav{
+    font-size: 1.2em;
+}
 h1,h3{
     text-align: center;
 }
-li{
-    list-style: none;
+a{
+    text-decoration:none; color: maroon;
+}
+a:hover{
+    text-decoration: underline; font-size: 1.3em
+}
+a:visited{
+    color: maroon;
+}
+caption{
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    font-size: 1.3em;
+}
+table{
+    border-collapse: collapse; 
+}
+td,th{
+    border: 1px solid black;
+    height:6vh;
+}
+.bold{              /*------ligne  dev. back et front-end.........*/
+    font-weight: 600;
+    background-color: rgb(240, 240, 240);
+}
+.savoir{     /*------entete tableaux---------*/
+    background-color: rgb(220, 220, 220);
+}
+.cel{           /*------1ére rangée de cellules de chaque tableau pour caler la taille des colonnes-----*/
+    width: 2.5vw;
+}
+
+.cel3{      /*--------cellules compétences metier techno et humaines------------*/
+    width: 35vw;
+    text-align: center;
+    
+}
+.cel4{
+    text-align: left;
 }
