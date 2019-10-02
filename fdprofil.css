@@ -1,8 +1,17 @@
 body,nav{
     font-size: 1.2em;
+    background: url(background.png)
+}
+hr{
+    box-shadow: 0px 6px 6px black;
 }
 h1,h3{
     text-align: center;
+}
+ol{
+    display: flex;
+    justify-content: space-around;
+
 }
 a{
     text-decoration:none; color: maroon;
@@ -43,4 +52,30 @@ td,th{
 }
 .cel4{
     text-align: left;
+}
+.cel11{
+    width: 2.5vw;
+    background-color: rgb(248, 194, 95);
+}
+.cel12{
+    width: 2.5vw;
+    background-color: rgb(252, 249, 89);
+}
+.cel13{
+    width: 2.5vw;
+    background-color: rgb(195, 255, 100);
+}
+.bouton{
+	border:none;
+	padding: 2vh 2vw 2vh 2vw;
+	border-radius:2px;
+	box-shadow:5px 5px 12px #999;
+	background:#fff;
+	font:bold 13px 'new times roman' ;
+    color:#555;
+    margin: 2vh 43vw 5vh 43vw;
+    
+}
+.bouton:hover{
+    text-decoration: underline; font-size: 1em
 }
