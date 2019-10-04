@@ -55,15 +55,15 @@ td,th{
 }
 .cel11{
     width: 2.5vw;
-    background-color: rgb(248, 194, 95);
+    background-color: rgb(255, 166, 0);
 }
 .cel12{
     width: 2.5vw;
-    background-color: rgb(252, 249, 89);
+    background-color: rgb(238, 255, 0);
 }
 .cel13{
     width: 2.5vw;
-    background-color: rgb(195, 255, 100);
+    background-color: rgb(157, 255, 0);
 }
 .bouton{
 	border:none;
