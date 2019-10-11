@@ -22,25 +22,15 @@ a:hover{
 a:visited{
     color: maroon;
 }
-caption{
-    margin-top: 5vh;
-    margin-bottom: 5vh;
-    font-size: 1.3em;
-}
-table{
-    border-collapse: collapse; 
-}
-td,th{
-    border: 1px solid black;
-    height:6vh;
-}
+
+
 .bold{              /*------ligne  dev. back et front-end.........*/
     font-weight: 600;
     background-color: rgb(240, 240, 240);
 }
-.savoir{     /*------entete tableaux---------*/
+/*.savoir{     /*------entete tableaux---------
     background-color: rgb(220, 220, 220);
-}
+}*/
 .cel{           /*------1ére rangée de cellules de chaque tableau pour caler la taille des colonnes-----*/
     width: 2.5vw;
 }
@@ -50,10 +40,10 @@ td,th{
     text-align: center;
     
 }
-.cel4{
+/* .cel4{
     text-align: left;
-}
-.cel11{
+} */
+/* .cel11{
     width: 2.5vw;
     background-color: rgb(255, 166, 0);
 }
@@ -63,6 +53,64 @@ td,th{
 }
 .cel13{
     width: 2.5vw;
+    background-color: rgb(157, 255, 0);
+} */
+
+caption{
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    font-size: 1.3em;
+    text-align: center;
+}
+
+/* GESTION DES TABLEAUX */
+
+table{
+    border-collapse: collapse;
+    width:100%;
+}
+
+td,th{
+    border: 1px solid black;
+    height:6vh;
+}
+
+table thead th{
+    background-color: rgb(220, 220, 220);
+}
+
+table thead th:nth-child(1){
+    width: 45vw;
+}
+
+table tbody th{
+    background-color:#FFF;
+    text-align: left;
+}
+
+table td{
+    width: 2.5vw;
+}
+
+table.techno thead th:nth-child(1){
+    width:20vw;
+    text-align: center;
+}
+table.techno tbody tr th:nth-child(1){
+    text-align: center;
+}
+
+/* COULEURS APPLIQUEES PAR DES CLASSES */
+
+.orange{
+    background-color: rgb(255, 166, 0);
+}
+
+.jaune{
+    background-color: rgb(238, 255, 0);
+}
+
+.vert{
     background-color: rgb(157, 255, 0);
 }
 .bouton{
@@ -79,3 +127,4 @@ td,th{
 .bouton:hover{
     text-decoration: underline; font-size: 1em
 }
+
