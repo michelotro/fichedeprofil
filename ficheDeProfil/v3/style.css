@@ -1,4 +1,5 @@
 html, body{
+    width: 100%;
     margin: 0;
     padding: 0;
     color: white;
@@ -17,13 +18,14 @@ nav ul{
     padding: 0;
     height: 8vh;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
     font-size: 1.2rem;
 } 
 nav li{
     list-style: none;
     text-align: center;
+    margin: 0 1vw 0 1vw;
 }
 h1{
     margin: 0;
